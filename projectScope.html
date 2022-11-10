@@ -77,17 +77,16 @@
   </header>
 
   <!-- Chapter Details -->
-  <br><br><br> 
-  <dev class="chapter1">
-    <h1>Research project scope</h1>
+  <div class="chapter">
 
-    <p><a href="#C1">Literature Survey</a></p>
-    <p><a href="#C2">Research Gap</a></p>
-    <p><a href="#C3">Research Problem</a></p>
-    <p><a href="#C4">Research Objectives</a></p>
-    <p><a href="#C5">Methodology</a></p>
-    <p><a href="#C6">Technologies Used</a></p>
-    
+    <br><br><br>
+    <p><a href="#S1" style="text-decoration: none">Literature Survey</a></p>
+    <p><a href="#S2" style="text-decoration: none">Research Gap</a></p>
+    <p><a href="#S3" style="text-decoration: none">Research Problem</a></p>
+    <p><a href="#S4" style="text-decoration: none">Research Objectives</a></p>
+    <p><a href="#S5" style="text-decoration: none">Methodology</a></p>
+    <p><a href="#S6" style="text-decoration: none">Technologies Used</a></p>
+
     <h2 id="C1">Literature Survey</h2>
     <p>In past years, several systems have been proposed to implement agricultural monitoring systems using deep learning techniques in several countries. Nowadays, most farmers and younger generations use innovative technologies [4]. Therefore, modern technologies must be applied to agriculture.
       <br><br>Numerous studies have been conducted in Budget (cost) Forecasting. Research has been conducted on the performance and forecast of Indonesian pepper exports to Italy. Moreover, it is predicted to expand by 25 percent between 2018 and 2030. However, this research has predicted only Indonesia's export performance [2]. Furthermore, research has been conducted to estimate the production costs, pricing, and profitability per unit of pepper produced in Romania. In this research, production costs for the 2017/2018 cultivation years in Romania have been estimated [3].
@@ -97,22 +96,35 @@
       <br><br>There are several research projects developed on forecasting crop prices. Research [12] is concerned with providing the monthly price trends in various crops for all the farmers and individuals. For forecasting the price, this study has chosen 20+ crops, and those crops' prices increase, and decrease are represented in a structured manner. They used a decision tree, multiple liners, and random forest regression algorithms. Nevertheless, this research paper takes the dataset from every crop wholesaler's monthly prices. Because of that, the farmers will not profit significantly, and using the website is less efficient than using a mobile application approach. Research [13] describe some studies on Sri Lankan research on innovative agricultural price prediction solution through a mobile application. Those studies provide predicted vegetable prices weekly and monthly for farmers via a cloud-based system through API calls. Moreover, while researching those applications, they do not exist in the real world.
       </p>
     
-    <h2 id="C2">Research Gap</h2>
+    <h2 id="S2">Research Gap</h2>
     <p>This chapter explains ba bla bla</p>
     
-    <h2 id="C3">Research Problem</h2>
+    <h2 id="S3">Research Problem</h2>
     <p>This chapter explains ba bla bla</p>
     
-    <h2 id="C4">Research Objectives</h2>
+    <h2 id="S4">Research Objectives</h2>
     <p>This chapter explains ba bla bla</p>
     
-    <h2 id="C5">Methodology</h2>
+    <h2 id="S5">Methodology</h2>
+    <p>The proposed VAPECA application was developed using a variety of technologies. The comprehensive architecture of the newly designed system is shown in Figure 1. The system is comprised of four key modules, including geographical data with budget forecasting, prediction of plant conditions, Identifying harvesting stages, and prediction of crop prices and best market.
+      <br><br><b>A.	Providing geographical data, and budget forecasting with the best plant suggestion</b>
+      <br><br>When a farmer logs into the application for the first time, the farmer must select the location of the land where the farmer intends to begin the cultivation process. The application then provides the farmer with geographical data. The aim of providing geographical data is to provide pertinent data, such as monthly rainfall and soil types, that are required prior to beginning cultivation, based on the farmer's location. Moreover, all geographical data was collected from credible sources, such as the weather and the agricultural export department.
+      <br>The primary objective of the Budget forecast function is to predict the cost of a new cultivation process for each Pepper, Vanilla, and Cardamom plant and to display the budget forecast for the upcoming months. The two most significant factors that affect the cost are plant prices and the behavior of rain during the month. Three different time series models, including LSTM, ARIMA, and SVR, were trained to forecast the cost.
+      <br>Several experiments were done to extract the dataset, such as preprocessing for drop NaN(null) values, checking for trend and seasonality by checking the histogram of the dataset, and for the Evaluation process, RMSE values were considered.
+      <br>Following the budget forecast, the plant suggestion function requires the farmer to input the land's location and preferred and affordable price range. Then, a logical conceptual algorithm is implemented to determine which Vanilla, Pepper, and Cardamom is the best plant. The farmer's location is evaluated as one aspect of achieving this. An algorithm can rate the best plant depending on the location by analyzing the most favorable places for each plant. Subsequently, the preferred budget is evaluated as the other factor. Each plant has minimal cultivation costs. By comparing the minimum cost and preferred budget, an algorithm can determine which plant is the best based on the budget. The application may recommend the optimal plant for a farmer with these variables. After suggesting the best plant, the farmer retains the option to continue growing the suggested plant or choose another. However, regardless of the plant picked by the farmer, the application provides cultivation guidelines for any plant, including vanilla, pepper, and cardamom.
+      <br><br>
+      <br><br>
+
+
+    </p>
+    
+    <h2 id="S6">Technologies Used</h2>
     <p>This chapter explains ba bla bla</p>
     
-    <h2 id="C6">Technologies Used</h2>
-    <p>This chapter explains ba bla bla</p>
     
-  </dev>
+
+  </div>
+
 
   <!-- Footer -->
   <br>
