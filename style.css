@@ -40,9 +40,14 @@
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
-.numbertext {vertical-align: middle;
+img {vertical-align: middle;
     width: 1519px;
     height: 400px;
+
+}
+.imgdiagram{
+  width: 1300px;
+  height: 1000px;
 }
 
 /* Slideshow container */
