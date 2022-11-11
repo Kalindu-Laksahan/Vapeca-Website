@@ -43,6 +43,11 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;
     width: 1519px;
     height: 400px;
+
+}
+.imgdiagram{
+  width: 1300px;
+  height: 1000px;
 }
 
 /* Slideshow container */
@@ -131,38 +136,4 @@ body {
 /* About us CSS --------------------------------------------------------------------------- */
 #supervisors{
   position: absolute;
-}
-
-/* Milestones Table CSS--------------------------------------------------------------------- */
-html,
-body,
-.intro {
-  height: 25%;
-}
-
-table td,
-table th {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-thead th {
-  color: #fff;
-}
-
-.card {
-  border-radius: .5rem;
-}
-
-.table-scroll {
-  border-radius: .5rem;
-}
-
-.table-scroll table thead th {
-  font-size: 1.25rem;
-}
-thead {
-  top: 0;
-  position: sticky;
 }
