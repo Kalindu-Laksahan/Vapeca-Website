@@ -96,33 +96,175 @@
       <br><br>There are several research projects developed on forecasting crop prices. Research [12] is concerned with providing the monthly price trends in various crops for all the farmers and individuals. For forecasting the price, this study has chosen 20+ crops, and those crops' prices increase, and decrease are represented in a structured manner. They used a decision tree, multiple liners, and random forest regression algorithms. Nevertheless, this research paper takes the dataset from every crop wholesaler's monthly prices. Because of that, the farmers will not profit significantly, and using the website is less efficient than using a mobile application approach. Research [13] describe some studies on Sri Lankan research on innovative agricultural price prediction solution through a mobile application. Those studies provide predicted vegetable prices weekly and monthly for farmers via a cloud-based system through API calls. Moreover, while researching those applications, they do not exist in the real world.
       </p>
     
+    <br><br>
     <h2 id="S2">Research Gap</h2>
-    <p>This chapter explains ba bla bla</p>
+    <p>
+      <b>A.	Providing geographical data, and budget forecasting with the best plant suggestion</b>
+      <br>In the past few years, many researchers have researched this domain. And one research has been conducted on the performance and forecast of Indonesian Pepper exports to Italy [14]. Moreover, it is predicted to expand by 25 percent between 2018 and 2030. However, this research has predicted only the Indonesia's export performance.
+      <br>Another study has been conducted to estimate the production costs, pricing, and profitability per unit of Pepper produced in Romania. In this research, production costs for the 2017/2018 cultivation years in Romania have been estimated [15].
+      <br>The Export income of Sri Lanka [16] has been forecasted using ARIMA models. In this research, accurate data has been provided to suit Sri Lanka. However, none of these researches have conducted a cost forecast for any Sri Lankan plant. Two of these researchers have concentrated on export income [14], [16]. And one of the researchers [15] has formed a cost estimate for Romania. VAPECA has completed a cost forecast for each Vanilla, Pepper, and Cardamom plant, and farmers can obtain the month-by-month cost forecast to understand the initial cost before beginning the cultivation process.
+      <br>And also, there are some agricultural-related mobile applications in Sri Lanka. After analyzing those applications and reviews of those applications below table has been created and compared with the VAPECA application.
+      
+      <br><br><b>B.	Plant condition prediction using image processing, fertilizer suggestions, and future plant status</b>
+      <br>There are some research and mobile applications developed for measuring plant variables. One of the research studies uses image processing to measure plant height [17], which can assist to measure rice crops height with tiller segmentation. And there is so much research that has been done to identify leaves diseases [18] – [20]. But the research gaps that I have identified are, there is no research done to identify the conditions of the leaves to check whether the plant health is good or bad. And the other research gap is there are no research done with Vanilla, Pepper, and Cardamom leaves in Sri Lanka. There is one research have done to identify the cardamom leaves diseases in India [21]. And if this identification process is going to be used by farmers, it should be compatible with any smart device. Then it will be extremely useful for farmers to identify their plant health.
+      <br><br>There are several mobile applications and websites that provide cultivation details of Vanilla, Pepper, and Cardamom plants. Department of Agriculture [22], Department of Export Agriculture [23] are the main websites in Sri Lanka. Govi Mituru and Krushi Advisor are the most common mobile applications. But the problem is all these websites and mobile applications provide just details about these 3 plants.
+      <br>VAPECA application will try to achieve these research gaps using combination of plant condition identification, fertilizer suggestions and future plant status
+
+      <br><br><b>C.	Determine Quality of Harvesting Stages</b>
+      <br>The purpose of this research is to provide clear and accurate guidance to farmers along with practical knowledge. There are many more mobile apps and websites about harvesting time, different stages of harvest and correct harvesting methods. Website and mobile applications such as Department of Agriculture, Department of Export Agriculture, Department of Agrarian Development, Department of Agriculture Consultant, Govi Mituru etc. The main problem is the inability of farmers to gain practical knowledge from this. In this field of research, we try to focus on the practical side.
+      <br><br>A major part of this research area is the identification of harvesting stages using image processing. Many researchers have used image processing to detect crop diseases [24]. But they did not focus on identifying the stages of harvesting using image processing. New farmers who have no experience in the harvesting stage can upload a picture and get a clear understanding of these harvesting stages.
+      <br><br>Also, VAPECA mobile app provides information about the weather details. This will prevent damage to the crop due to climate change on harvest day. Some research has found the use of satellites to monitor crops and to harvest and estimate yields. Here, in observing the correct time for harvesting and forecasting of wheat crop, the spectral signature of the field changes and depends on the growth period of the crop [25]. Some research has been done to study remote sensing data and climate data used to find correlations between crop yields and various other indicators such as EVI, flood crop stage, flood time and other climatic factors [26].
+      <br>There are many guidelines on harvesting details and harvesting technology. But most of these are just details. Sometimes farmers are lazy to read the full description. Most farmers are not interested in reading. So, in this research we provide clear and interesting videos on harvesting methods. Through this, farmers can gain practical knowledge about the harvest season, the different stages of the harvest and the correct harvesting methods.
+
+      <br><br><b>C.	Price forecasting using time series and neural network</b>
+      <br>There are several types of research developed on forecasting crop prices. According to research “A” [29], is concerned with providing the monthly price trends in various crops for all farmers and individuals.  In this research paper, they were going to prepare a website for crop price prediction. For forecasting the price, they were choosing 20+ crops and those crop prices increase and decrease are represented in a structured manner. Using decision tree regression, multiple linear regression, and random forest regression algorithms they analysis the prices and foresting the price with 92% accuracy. But in this research paper, the dataset is taken from every crop wholesaler’s monthly prices only to forecast the price. Because of that, the farmers are not gone have a large profit when they sell their harvesting with high hoping using a website is less efficient than using a mobile application approach because in practical the farmers are finding it as harder to use a website with their job.
+      <br><br>Research “B” [27] and “C” [28], describe some studies on Sri Lankan research on smart agricultural price prediction solutions through a mobile application. Those researchers provide predicted vegetable prices weekly, and monthly for farmers via cloud-based system through API calls. Research B, concerned about Sri Lankan past 10 years’ market prices data only and they are designed “Agro-Genius” mobile application to predict the most profitable crops according to location and harvesting time by using different machine learning algorithms. While researching these applications are not existing in real world. On the other hand, in research B, provides the most profitable crops by farmer given location and then predict the prices, but according to this research the farmer is not being tracked from the plantation stage because of the farmer has to always enter his or her location to get the predicted crop prices details. It is very time-consuming work for farmers.
+      <br><br>In research C, they are concerned about vegetable prices USD rates fluctuations. This research is aimed at the export market only. Here they said, the future USD rate is entirely exogenous and unaffected by the price of Sri Lankan vegetables. Furthermore, this CYLAGRO system proves 95% accuracy. However, according to that Sri Lankan farmers are not being able to get details about Sri Lankan market price prediction.  
+    </p>
     
+    <br><br>
     <h2 id="S3">Research Problem</h2>
-    <p>This chapter explains ba bla bla</p>
+    <p>Agriculture is the backbone of Sri Lanka’s economy. However, this agriculture sector growth has been sluggish nowadays. Rapid agricultural productivity increase is critical for alleviating poverty in Sri Lanka, since the rural agricultural economy employs roughly 90% of the population. And in Sri Lanka not only do farmers not know how to get a maximum harvest from their crops, but they also lack the knowledge to compete in that business environment. Due to the country's current situation [30], most Sri Lankans are moving from agriculture due to increased competition and a lack of resources and income. But Export crops farmers have considerable income from their cultivation. Our target crops, Vanilla, Pepper, and Cardamom, are currently ranked among the world's 15 most expensive spices due to their future value [31]. Agriculture is an important part of Sri Lanka's economy, and it employs the bulk of the country's workforce. Agriculture employs around 38 percent of the entire labor force but only provides 7% of the national GDP, according to the Department of Census and Statistics [32]. At present younger generation’s involvement is very low into agriculture sector due to the low socio-economic status and also because of modernization younger generation is lean towards profitable jobs for gaining high social economic status. In Sri Lanka, most of the farmers contribute from rural areas and those farmers do not have a lot of resources and knowledge about farming and marketing [33].
+      <br><br>To start a Successful cultivation process, choosing the right place for the right plant is essential. However, there are insufficient systems to provide farmers with information about ground conditions. The current method is to identify the ground suitability for the plant is asked from the Agriculture officer. But unfortunately, due to not being able to cover a large area by a single agriculture officer, it is challenging to understand agriculture-related information without an officer. Suppose the Farmer is an experienced export crops farmer. In that case, those farmers can use their knowledge and experience to start cultivation, but if it is a new farmer, there are not enough ways to understand export crops. It is also very important to choose the right place for the right plant and cultivate it in a manner that fits the farmers' Budget. In Sri Lanka, there is no method for estimating potential costs based on land or plant location
+      <br><br>The other main considerable reason for this is lack of knowledge about crops. They do not know whether the plant conditions are good or bad. First of all, farmers need a proper knowledge about plants conditions. They will lose some plants and money because of poor understanding and maintenance. This is a significant loss compared to the yield from the tree. They also avoid the high economic value gained from plant extractions due to the lack of awareness of plant extracts. That is why VAPECA application guides non-experienced farmers and new farmers to maintain their plant with modern technologies.
+      <br><br>Below shows the main problems that have been identified with existing similar applications and research [34], [35], [36], [37]
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;How to understand the plant conditions by analyzing leaves?
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;How do non-technical farmers get analytical details about plant conditions?
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;How much predicted leave conditions are accurate?
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;How can farmers improve plant health?
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;How do farmers know what is the best time to apply fertilizer?
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;How do farmers know their future plant status and harvest details?
+      <br><br>When we consider farmers, there are two types. One is farmers who do not have proper knowledge about plant conditions, but they already cultivate. And the other one is someone who does not have both experience and knowledge. Also, they are not cultivated yet. Like the younger generation.
+      <br>If farmers can identify their own plants' conditions and growth levels, then they can apply fertilizers at the right time and improve their plant health. Also, if they have a feature to see their plant conditions and future plant status it will be more interesting for new farmers to do their cultivation with motivation. The proposed VAPECA application will give solutions for the above problems.
+      <br>Most farmers have some idea of how to grow and maintain a crop. But they have not clear idea how to make a good profit by following the correct harvesting methods. Another main problem is that all the guidelines are only detailed [23]. New farmers have no experience. Then just reading those details will not give the farmers a clear idea about the harvest and Farmers cannot get practical knowledge from it. 
+      <br>Adverse weather often destroys the crops of many farmers. The main problem is that farmers do not pay attention to it and many farmers do not have a clear idea. The weather and stage may be good, but there may be some damage to the crop when it is harvested. This is because many farmers do not have a clear understanding of correct harvesting methods. This app provides all the correct harvesting methods as video.
+      
+      <br><br>And the other main problem is agricultural decisions are taken by rural farmers based on their experience with the local market. Thus, evidence shows that individual farmer decisions are ineffective in managing economic efficiency and profitability in the lack of information on production and sale in their native countries. Individual farmers in a small emerging country like Sri Lanka should not conduct production and marketing decisions without considering the cost of production, supply trends, and so on [38]. In Sri Lanka, a low market share leads to a high-profit zone, and more than 70% of agricultural crop exports are currently destined for developing countries at a loss. Because of low harvest quality, there is no market mechanism to "pay for quality," and export products have low-value addition [39]. The quality of production could be determined by the price. Therefore, the good growth of the pepper, cardamom, and vanilla crops could be taken at a high price because the quality of the product is great. In order to consider the less growth of pepper, cardamom, and vanilla crops sold in low amounts. According to this problem, the price fluctuation of Sri Lanka is known as a major challenge in export crop cultivation.
+      The problem seems to be is that Sri Lankan farmers do not have proper knowledge about market fluctuations. They might not know how to value their harvested crops when they sell their cultivated crops into markets; does not know how much profit that the farmers can get from the beginning of the farming. This leads to huge financial losses for poor farmers. In such case, there needs to be proper way to identify the profitable market and guide the farmers to make right decision at right time is required for agriculture sector.
+      
+    </p>
     
+    <br><br>
     <h2 id="S4">Research Objectives</h2>
-    <p>This chapter explains ba bla bla</p>
+    <p>
+      <b>Main Objectives</b>
+      <br>1)	&nbsp;&nbsp;The main objective of this research is to present and develop a system that can detect the location of a farmer's land, display geographical data based on that area, provide a budget estimate for a specific crop, and then recommend the best plant for that particular Farmer.
+      <br><br>2)	&nbsp;&nbsp;The specific objective behind this research component is to develop an application to identify leave conditions using image processing and based on those predicted outputs, display the fertilizer suggestions and future plant status.
+      <br><br>3)	&nbsp;&nbsp;The main objective of implementing this systematic solution prevent damage to the crop and to get a rich harvest by determining the harvesting stage and checking the weather conditions at the relevant times.  The aim is to develop a system to determine harvesting stage and analyze weather forecast through APIs. Also, through this provide practical knowledge for farmer about how to identify relevant stage of harvest and can get idea about correct harvesting techniques through the videos.
+      <br><br>4)	&nbsp;&nbsp;The major objective of this study is to develop a mobile application though guide and support to the Sri Lankan small scale farmers to make good profit when they making a decision to sell their harvested crops into market. By analyzing the market and forecasting the local market prices trends, it would be easier to achieve main objective. However, as mentioned out earlier there can be some issues raised parallel when providing and guiding to find profitable markets to farmers. Therefore, to enhance to find a fair market for potential farmers irrespectively have to analyze the selling price that relevant farmer wants. Finding and recommending fair and reasonable markets and providing information on those markets and their price fluctuations will ultimately improve farmers' knowledge of the market. Also it will more useful to encourage people who are not interesting about agriculture sector.
+      
+      <br><br>
+      <b>Sub Objectives</b>
+      <br>1.	Provide geographical related data based on farmers location.
+      <br>&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;Based on the location of the Farmer's land, the proposed system will display geographic data such as monthly wise average rainfall, ground suitability, and soil types that must be evaluated before a cultivation process. By examining these parameters, farmers can have a clear understanding of the geographical information surrounding the chosen area. 
+      <br><br>2.	Budget forecast for selected crops.
+      <br>&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;After comparing trained dataset by the accuracy, the forecasted Budget for each three plants will display and Farmer can get a clue about the initial cost of cultivation process.  
+      <br><br>3.	Best plant suggestion based on Farmer's location and affordable Budget.
+      <br>&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;By analyzing the provided Farmer's location and Budget, the system will analyze the data and recommend the best plant and other possibilities for that particular Farmer. 
+      <br><br>4.	Provide cultivation techniques and guidance
+      <br>5.	Providing the proper guidance and techniques is crucial to a successful cultivation.
+      <br>6.	New farmers can identify plant conditions without any knowledge and experience.
+      <br>7.	Farmers can get an idea about their plant conditions as a percentage.
+      <br>8.	Farmers can get an overall idea about the leaf's health.
+      <br>9.	Farmers will be able to know the fertilizer mixer details of each and every plant
+      <br>10.	Farmers will be able to know the fertilizer suggestions with detailed description.
+      <br>11.	Farmers can get an idea about the future plant status of each and every plant.
+      <br>12.	Farmers will be able to know the normal healthy plant harvest details.
+      <br>13.	Farmers can get an idea about their future plant harvest prediction according to their plant condition.
+      <br>14.	Image processing for identifying harvest quality.
+      <br>&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;The focus of this section is using image processing to identify the relevant stage of harvest. Analyze the harvesting stages using the captured photo and determine the harvesting stage using the algorithm.
+      <br><br>15.	Analyze future weather through the API.
+      <br>&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;From this part gives farmers an overview of the weather at harvest time. Then the farmers can get a clear understanding of the weather forecast.
+      <br><br>16.	Analyze the harvesting date according to the flowering date.
+      <br>17.	Smart guidance for harvesting techniques using video explanation.
+      <br>&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;As well as give smart guidance for harvesting techniques using video explanation to get a better effective understanding.
+      <br><br>18.	Identification of the best market according to farmer wants selling price before recommending a market.
+      <br>19.	Analyze the crop price details and forecast the future prices.
+      <br>20.	Display local market price fluctuations using line charts for each crops.
+      <br>21.	Provide better idea about user’s work related to faming by maintaining a profile.
+
     
+    </p>
+    
+    <br><br>
     <h2 id="S5">Methodology</h2>
     <p>The proposed VAPECA application was developed using a variety of technologies. The comprehensive architecture of the newly designed system is shown in Figure 1. The system is comprised of four key modules, including geographical data with budget forecasting, prediction of plant conditions, Identifying harvesting stages, and prediction of crop prices and best market.
+      
+      <br><br><img id="diagram" src="images\Final Diagram.png" alt="Final Diagram">
+
       <br><br><b>A.	Providing geographical data, and budget forecasting with the best plant suggestion</b>
       <br><br>When a farmer logs into the application for the first time, the farmer must select the location of the land where the farmer intends to begin the cultivation process. The application then provides the farmer with geographical data. The aim of providing geographical data is to provide pertinent data, such as monthly rainfall and soil types, that are required prior to beginning cultivation, based on the farmer's location. Moreover, all geographical data was collected from credible sources, such as the weather and the agricultural export department.
       <br>The primary objective of the Budget forecast function is to predict the cost of a new cultivation process for each Pepper, Vanilla, and Cardamom plant and to display the budget forecast for the upcoming months. The two most significant factors that affect the cost are plant prices and the behavior of rain during the month. Three different time series models, including LSTM, ARIMA, and SVR, were trained to forecast the cost.
       <br>Several experiments were done to extract the dataset, such as preprocessing for drop NaN(null) values, checking for trend and seasonality by checking the histogram of the dataset, and for the Evaluation process, RMSE values were considered.
+      <br><br><img id="diagram" src="images\Kali Equation.png" alt="Final Diagram">
       <br>Following the budget forecast, the plant suggestion function requires the farmer to input the land's location and preferred and affordable price range. Then, a logical conceptual algorithm is implemented to determine which Vanilla, Pepper, and Cardamom is the best plant. The farmer's location is evaluated as one aspect of achieving this. An algorithm can rate the best plant depending on the location by analyzing the most favorable places for each plant. Subsequently, the preferred budget is evaluated as the other factor. Each plant has minimal cultivation costs. By comparing the minimum cost and preferred budget, an algorithm can determine which plant is the best based on the budget. The application may recommend the optimal plant for a farmer with these variables. After suggesting the best plant, the farmer retains the option to continue growing the suggested plant or choose another. However, regardless of the plant picked by the farmer, the application provides cultivation guidelines for any plant, including vanilla, pepper, and cardamom.
-      <br><br>
-      <br><br>
+      
 
+      <br><br>
+      <b>B.	Plant condition prediction using image processing, fertilizer suggestions, and future plant status</b>
+      <br><br>VAPECA systematic solution can predict plant conditions using image processing techniques. First, it is used to identify the leaves' conditions. Then, the application will summarize the plant's condition using the predicted outputs. There are four steps. Identify leaves conditions, give the plant condition summary, fertilizer suggestions, and future plant status.
+      <br><br>The proposed VAPECA system first captures leaves images, and images will be sent through a trained TensorFlow Keras model to identify whether the leaves' condition is good or bad. First, different CNN-based models were trained for leaf identification since CNNs are particularly well-suited for image analysis and classification. Next, several CNN architectures, including DenseNet, EfficientNetV2L, VGG16, and MobileNet, were tested with the gathered leaves dataset to improve accuracy. Eventually, the MobileNet architecture [14] demonstrated the highest accuracy.
+      <br>For this part, our own data set was developed, and images were collected for two different classes. Each class has around 300 images. Also, several strategies, such as decreasing or increasing architectural complexity, regularization, data set size, and augmentation, were used to address the problem of overfitting and underfitting. After identifying leaves, applying the conditions gives an overall summary of that plant condition as a percentage, competed by analyzing predicted leaves condition outputs. Then the application will suggest the fertilization and reasonable periods according to the plant condition summary. At the next step, the application will display future plant status and harvest prediction. That is also based on the plant condition summary.
+      
+      <br><br>
+      <b>C.	Determine Quality of Harvesting Stages</b>
+      <br><br>Harvest productivity depends on harvesting periods and techniques. The harvest will be adequate when the farmers harvest on time using the proper techniques. Although many farmers are concerned about planting and fertilizing, they do not understand how to harvest properly. Below are recommended solutions based on harvesting stages.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	 &nbsp;&nbsp;&nbsp;Image processing for identifying harvest stages.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	 &nbsp;&nbsp;&nbsp;Analyze future weather through the API.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	 &nbsp;&nbsp;&nbsp;Smart guidance for harvesting techniques using video explanation.
+      <br>The main focus of this study is to identify the stages of the harvest by image processing. The harvesting stages were analyzed using the captured photo and the algorithm to determine the stages of the harvest. Analyze future weather using the API and construct a harvest prediction based on image processing. Guidance for harvesting techniques via video explanation is another feature. For this study, our own data set was developed, and images were collected at the various harvesting stages under the supervision of supervisors. EfficientNetB6, VGG19, and ResNet152V2 models were used to train the dataset. Moreover, VGG19 [15] was tested with the gathered harvest dataset to achieve improved accuracy.
+    
+      <br><br>
+      <b>D. Price forecasting using time series and neural network</b>
+      <br><br>The proposed “VAPECA” mobile application uses the best methodology to fill the research gaps and guide the small-scale farmers to make decisions and polish their knowledge about market and price trends. The proposed solution has the capability of,
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;Discover the profit range that the farmer wants.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;Forecast the prices by analyzing the past local and export market data.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;Suggesting the best markets for farmers.
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	&nbsp;&nbsp;&nbsp;Giving proper knowledge about present days market fluctuations.
+      <br>Moreover, this project aims to guide and improve rural farmers’ decision-making on the market. The dataset used here to forecast the future prices was obtained from “Producers’ price of EAC” on the export development board [16]. For the model training, there were former 5-year historical daily average prices of peppers. Before model training, there were data mining techniques which as data preprocessing. That technique transforms the raw data into a valuable and efficient format. In preprocessing stage, firstly store market price data in an excel sheet, then drop irrelevant columns and remove rows with NaN values. Then model the dataset using SARIMAX, LSTM, and SVR models. SARIMAX is known as the time series analysis method, but LSTM and SVR are known as neural network models, which are highly used.
 
     </p>
     
-    <h2 id="S6">Technologies Used</h2>
-    <p>This chapter explains ba bla bla</p>
+    <br><br>
+    <h2 id="S6">Tools and Technologies Used</h2>
+    <p>
+      <b>1.	Android Studio</b>
+      <br>For the application implementation, the android studio was used with java language. Multiple libraries and google services helped to stable the Application on any android device.
+      
+      <br><br><b>2.	Jupyter Notebook</b>
+      <br>The Jupyter notebook was utilized during the model training phase. The Jupyter notebook was used to train the SVR, LSTM, and ARIMA models as well as to visualize the forecasted data. 
+      <br>That technology was used for further organize the past market prices by data cleaning and used Jupyter notebook as visualize forecasted data with predicted market prices data and to analyze those data
+      
+      <br><br><b>3.	MySql</b>
+      <br>MySql Database was used to store Soil types data, Rainfall data, and Forecasted data.
     
+      <br><br><b>4.	Microsoft Excel</b>
+      <br>Excel was used to organize data gathered in the interview and calculate average rainfall data with past cost data. The datasets were also created using excel, which has been used to train the model.
+      <br>And also it organizes and manipulates data and solves mathematical functions by using a large collection of formatted cells. When collecting each district market prices data for each cardamom, pepper, vanilla plant, Microsoft excel used as a data storing using CSV format and also for the data cleaning and transformation functions. 
     
+      <br><br><b> 5.	API’s</b>
+      <br>Using Google Map API, the location of the Farmer has been identified. And also Another API were used to make a faster connection between the Database and the Application by updating a JSON file.
+     
+      <br><br><b>6.	Anaconda Environment and Jupyter notebook</b>
+      <br>At the beginning of the dataset training, team VAPECA used Jupyter notebook with Anaconda prompt to run the python codes. But later, team moved to the Google colaboratory by considering the time taken to fit the model.
+          
+      <br><br><b> 7.	Google colaboratory</b>
+      <br>When using google colaboratory, the runtime type Hardware acceleration changed to Graphics Processing Units (GPU) in order to accelerate the tasks.
+      
+      <br><br><b>8.	Firebase Database</b>
+      <br>Firebase database was used to store the user details of VAPECA application.
+    
+      <br><br><b> 9.	Python </b>
+      <br>Python is used as the programming language for trained and forecasted the past local market prices using with different time series analysis models. For machine learning algorithms Python language is mostly used. By using Jupyter notebook, time series analysis algorithms are coded.
+   
+      <br><br><b>10.	OpenCV and Tensor Flow</b>
+      <br>OpenCV is a software library for computer vision and machine learning. OpenCV was created to give computer vision applications a common framework and to speed up the incorporation of artificial intelligence into products. VAPECA uses OpenCV and TensorFlow for the image processing component.
+    
+      <br><br><b>11.	Open Weather API</b>
+      <br>OpenWeatherMap is an online service, owned by OpenWeather Ltd, that offers global weather data via API, including real-time weather information, forecasts, nowcasts, and historical weather information for any location. VAPECA uses openWeather API for get future weather details.
 
+    </p>
+    
   </div>
 
 
