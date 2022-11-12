@@ -38,7 +38,9 @@
 
 /* SlideShow */
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
+body {font-family: Verdana, sans-serif;
+  background-color: rgb(232, 246, 228);
+      }
 .mySlides {display: none;}
 img {vertical-align: middle;
     width: 1519px;
@@ -46,8 +48,8 @@ img {vertical-align: middle;
 
 }
 .imgdiagram{
-  width: 1300px;
-  height: 1000px;
+  width: 1000px;
+  height: 700px;
 }
 
 /* Slideshow container */
@@ -123,9 +125,6 @@ img {vertical-align: middle;
 
 /* ------------------------------------------------------------------------------------- */
 
-body {
-  background-color: rgb(232, 246, 228);
-}
 
 #diagram{
   width : "600";
@@ -136,4 +135,80 @@ body {
 /* About us CSS --------------------------------------------------------------------------- */
 #supervisors{
   position: absolute;
+}
+/*Contact us css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-blue {
+    background-color: 	#87e67e;
+}
+
+.bg-red {
+    background-color: #0fa779;
+}
+
+.bg-darkred {
+    background-color: #1ca70f;
+    border: none;
+    color: #fff !important;
+}
+
+
+
+select {
+    font-size: 13px !important;
+}
+
+#inputState:focus {
+    background-color: rgb(220, 255, 229);
+    color: #fff;
+    box-shadow: none;
+}
+
+
+
+input:focus {
+    background-color: rgb(220, 255, 229) !important;
+    color: #fff;
+    box-shadow: none !important;
+}
+
+textarea:focus {
+    background-color: rgb(220, 255, 229)  !important;
+}
+
+#dropDown {
+    height: 100%;
+    padding-bottom: 8px;
+}
+
+#dropDown.form-control {
+    appearance: revert;
+    color: #fff;
+}
+
+#dropDown.form-control:focus {
+    background-color: #0fa779;
+}
+
+.btn {
+    background-color: #fff;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.msg-btn {
+    height: 70px;
+}
+
+.btn:hover {
+    background-color: #efefef;
 }
